@@ -1,0 +1,160 @@
+body {
+    font-family: 'cabin';
+    background: linear-gradient(206deg, #136284 0, #181A1C 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#logo {
+    height: 50px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.secLgn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 40px;
+    border-radius: 20px;
+    height: 410px;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    width: 320px;
+}
+
+.imgLgn {
+    width: 130px;
+}
+
+.tiLgn {
+    color: #9BC53D;
+    font-weight: bold;
+    font-size: 30px;
+    top: 100px;
+}
+
+.stiLgn {
+    font-weight: 700;
+    font-size: 13px;
+    top: 140px;
+}
+
+.secLgn > * {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.cntFor {
+    top: 180px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#secReg {
+    display: none;
+}
+
+.cntBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80px;
+    top: 310px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#modal-body-sesion {
+    text-align: center;
+}
+
+.tiMo {
+    font-weight: bold;
+}
+
+.stiMo, .pMo {
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+}
+
+.stiMo {
+    font-size: 17px;
+}
+
+.check * {
+    font-size: 50px;
+    color: #9BC53D;
+}
+
+.error * {
+    font-size: 50px;
+    color: #BD2024;
+}
+
+.container-fluid {
+    height: 500px;
+}
+
+footer {
+    border: 1px solid #374550;
+    width: 100%;
+    height: 160px;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+#netFoo {
+    margin: 25px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 50px;
+}
+
+hr {
+    border: 1px solid #333333;
+}
+
+#copr {
+    font-weight: 700;
+    font-size: 13px;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    #logo {
+        position: absolute;
+        right: auto;
+        left: 10vw;
+        top: 100px;
+        height: 20vw;
+    }
+
+    .secLgn{
+        left: auto;
+        right: 10vw;
+        top: 30px;
+    }
+
+    #copr {
+        font-size: 18px;
+    }  
+}
+
+@media screen and (min-width: 1172px) {
+    #copr {
+        font-size: 22px;
+    }
+}
