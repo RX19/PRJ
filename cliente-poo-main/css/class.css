@@ -1,0 +1,76 @@
+.bt {
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 3px 15px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btGd {
+    color: white;
+    background-color: #FA7921;
+    border: 2px solid #F0692B;
+}
+
+.btW {
+    color: black;
+    background-color: white;
+    border: 2px solid #5BC0EB;
+}
+
+.btR {
+    color: white;
+    background-color: #BD2024;
+    border: 2px solid #BD2024;
+}
+
+.btG {
+    color: black;
+    background-color: #CCD645;
+    border: 2px solid #9BC53D;
+}
+
+.boGd {
+    border: 2px solid #E55934;
+}
+
+.boB {
+    border: 2px solid #5BC0EB;
+}
+
+.boR {
+    border: 2px solid #BD2024;
+}
+
+.boG {
+    border: 2px solid #9BC53D;
+}
+
+.boY {
+    border: 2px solid #FDE74C;
+}
+
+.color1 {
+    background-color: #FDE74C;
+    border: 2px solid #FDE74C;
+    color: black;
+}
+
+.color2 {
+    background-color: #CCD645;
+    border: 2px solid #CCD645;
+    color: black;
+}
+
+.color3 {
+    background-color: #F0692B;
+    border: 2px solid #F0692B;
+    color: white;
+}
+
+.color4 {
+    background-color: #BD2024;
+    border: 2px solid #BD2024;
+    color: white;
+}

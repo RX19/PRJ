@@ -1,0 +1,305 @@
+body {
+    font-family: 'cabin';
+    background: linear-gradient(205deg, #136284 0, #181A1C 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding: 5px;
+}
+
+#btHe {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    font-size: 38px;
+    width: 265px;
+}
+
+.delPro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    background-color: #BD2024;
+    color: white;
+    margin: 0;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+
+#btHe * {
+    color: white;
+    background-color: #BD2024;
+    border: 2px solid #BD2024;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#coun { 
+    position: absolute;
+    top: 40px;
+    left: 95px;
+    border: 1px solid white;
+    border-radius: 100%;
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    font-weight: bold;
+}
+
+#logo {
+    height: 50px;
+}
+
+.container-fluid {
+    min-height: 450px;
+}
+
+section {
+    margin-top: 15px;
+    padding: 10px 0;
+    border-radius: 10px;
+    position: relative;
+    background-color: white;
+}
+
+.tiSec {
+    position: absolute;
+    border-radius: 5px;
+    top: -15px;
+    left: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    padding: 0px 5px;
+}
+
+.divCat {
+    padding: 5px;
+    align-items: flex-end;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.h5Cat {
+    font-weight: bold;
+}
+
+.card-img-left {
+    height: 150px;
+    width: 150px;
+}
+
+.banner {
+    height: 150px;
+}
+
+.cntEnt {
+    padding: 10px;
+}
+
+h6 {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 0 2px 0;
+}
+
+.ordPen{
+    border-radius: 5px;
+}
+
+p {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.calificacion {
+    text-align: right;
+}
+
+.estrellas {
+    font-size: 10px;
+}
+
+.divEnt {
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.conEnt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cntPro {
+    padding: 10px;
+    text-align: left;
+    position: relative;
+}
+
+.prePro {
+    text-align: right;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+.cntDes {
+    height: 100px;
+    overflow-y: auto;
+}
+
+.divPro {
+    cursor: pointer;
+    height: 165px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.titulo-modal {
+    font-weight: bold;
+}
+
+.subtitulo-modal, .parrafo-modal {
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+}
+
+.subtitulo-modal {
+    font-size: 17px;
+}
+
+.tot {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cart {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #444;
+}
+
+.detTot {
+    width: 30%;
+}
+
+.negro {
+    text-align: left;
+}
+
+.gris {
+    color: #444;
+    text-align: right;
+}
+
+.cart-modal {
+    font-size: 40px;
+    color: #555;
+}
+
+.infCar {
+    text-align: left;
+    border-radius: 10px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+.modal {
+    overflow: auto !important;
+}
+
+.check * {
+    font-size: 50px;
+    color: #9BC53D;
+}
+
+.error * {
+    font-size: 50px;
+    color: #BD2024;
+}
+
+.war {
+    font-size: 50px;
+    color: #FDE74C;
+}
+
+#canPro {
+    width: 100px;
+    border-radius: 5px;
+}
+
+#secPro, #secEnt {
+    display: none;
+}
+
+.sha { 
+    box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.35);
+}
+
+footer {
+    border: 1px solid white;
+    width: 100%;
+    height: 160px;
+    background-color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#netFoo {
+    margin: 25px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 50px;
+}
+
+hr {
+    border: 1px solid #333333;
+}
+
+#copr {
+    font-weight: 700;
+    font-size: 13px;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    #copr {
+        font-size: 18px;
+    }  
+}
+
+@media screen and (min-width: 1172px) {
+    #copr {
+        font-size: 22px;
+    }
+}
