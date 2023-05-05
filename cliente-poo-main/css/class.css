@@ -9,14 +9,14 @@
 
 .btGd {
     color: white;
-    background-color: #FA7921;
-    border: 2px solid #F0692B;
+    background-color: #063b25;
+    border: 2px solid #06633c;
 }
 
 .btW {
     color: black;
     background-color: white;
-    border: 2px solid #5BC0EB;
+    border: 2px solid #063b25;
 }
 
 .btR {
@@ -32,11 +32,11 @@
 }
 
 .boGd {
-    border: 2px solid #E55934;
+    border: 2px solid #215842;
 }
 
 .boB {
-    border: 2px solid #5BC0EB;
+    border: 2px solid #17dd8e;
 }
 
 .boR {
@@ -64,8 +64,8 @@
 }
 
 .color3 {
-    background-color: #F0692B;
-    border: 2px solid #F0692B;
+    background-color: #063b25;
+    border: 2px solid #063b25;
     color: white;
 }
 
